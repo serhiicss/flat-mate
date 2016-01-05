@@ -1,7 +1,3 @@
-// -----------------------------------------------------
-// ----------------- HERO-------------------------------
-// -----------------------------------------------------
-
 // ---------------------HEADER--------------------
 
 section.hero
@@ -34,7 +30,7 @@ button#login
   vertical-align: middle
 
 // ---------------------HEADER BODY--------------------
-.hero .body
+.hero-content
   clear: both
   display: flex
   justify-content: space-between
@@ -50,3 +46,29 @@ button#login
   background-image: url(../assets/icon-chat.png)
   width: 250px
   height: 239px
+
+// ---------------------HEADER BODY--------------------
+section.about
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-top: 4em
+  margin-bottom: 4em
+
+  .content
+    margin: 0 3em
+
+  a
+    color: $green
+    i
+      display: inline-block
+      border: 2px solid $green
+      border-radius: 50%
+      &:hover
+        background-color: $green
+        color: white
+    .fa-pencil
+      padding: 12px 15px
+    .fa-facebook
+      padding: 12px 19px
+// Icons on the left of the contnet. Used FA and then style cicles and hover

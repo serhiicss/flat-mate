@@ -466,7 +466,7 @@ img {
   width: auto\9;
 }
 
-/* line 13, ../sass/_3-vars.sass */
+/* line 12, ../sass/_3-vars.sass */
 h1,
 h2 {
   font-family: "Roboto Slab", sans-serif;
@@ -474,27 +474,32 @@ h2 {
   margin-top: 1.5rem;
 }
 
-/* line 19, ../sass/_3-vars.sass */
+/* line 18, ../sass/_3-vars.sass */
 h1 {
   font-size: 2.5em;
 }
 
-/* line 22, ../sass/_3-vars.sass */
+/* line 21, ../sass/_3-vars.sass */
 h2 {
   font-size: 2em;
 }
 
-/* line 25, ../sass/_3-vars.sass */
+/* line 24, ../sass/_3-vars.sass */
 p {
   font-family: "Roboto", sans-serif;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
-/* line 33, ../sass/_3-vars.sass */
+/* line 32, ../sass/_3-vars.sass */
 .inner-wrap {
   min-width: 320px;
   max-width: 1000px;
   margin: 0 auto;
+}
+
+/* line 37, ../sass/_3-vars.sass */
+ul {
+  list-style: none;
 }
 
 /* line 1, ../sass/_4-buttons.sass */
@@ -532,7 +537,7 @@ button.info {
   text-transform: uppercase;
 }
 
-/* line 7, ../sass/_5-main.sass */
+/* line 3, ../sass/_5-main.sass */
 section.hero {
   height: 700px;
   background-image: url(../assets/bg-header.jpg);
@@ -540,12 +545,12 @@ section.hero {
   background-position: center;
 }
 
-/* line 13, ../sass/_5-main.sass */
+/* line 9, ../sass/_5-main.sass */
 header.hero {
   padding-top: 55px;
 }
 
-/* line 16, ../sass/_5-main.sass */
+/* line 12, ../sass/_5-main.sass */
 .logo {
   float: left;
   position: relative;
@@ -558,40 +563,76 @@ header.hero {
   background: linear-gradient(#51A575, #6AA5F2);
 }
 
-/* line 27, ../sass/_5-main.sass */
+/* line 23, ../sass/_5-main.sass */
 .logo-text {
   float: left;
   color: white;
   font-size: 2.2em;
 }
 
-/* line 32, ../sass/_5-main.sass */
+/* line 28, ../sass/_5-main.sass */
 button#login {
   float: right;
   vertical-align: middle;
 }
 
-/* line 37, ../sass/_5-main.sass */
-.hero .body {
+/* line 33, ../sass/_5-main.sass */
+.hero-content {
   clear: both;
   display: flex;
   justify-content: space-between;
   margin-top: 10em;
 }
 
-/* line 43, ../sass/_5-main.sass */
+/* line 39, ../sass/_5-main.sass */
 .left {
   width: 50%;
   color: white;
 }
-/* line 46, ../sass/_5-main.sass */
+/* line 42, ../sass/_5-main.sass */
 .left p {
   padding-bottom: 1em;
 }
 
-/* line 49, ../sass/_5-main.sass */
+/* line 45, ../sass/_5-main.sass */
 .right {
   background-image: url(../assets/icon-chat.png);
   width: 250px;
   height: 239px;
+}
+
+/* line 51, ../sass/_5-main.sass */
+section.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+/* line 58, ../sass/_5-main.sass */
+section.about .content {
+  margin: 0 3em;
+}
+/* line 61, ../sass/_5-main.sass */
+section.about a {
+  color: #51A575;
+}
+/* line 63, ../sass/_5-main.sass */
+section.about a i {
+  display: inline-block;
+  border: 2px solid #51A575;
+  border-radius: 50%;
+}
+/* line 67, ../sass/_5-main.sass */
+section.about a i:hover {
+  background-color: #51A575;
+  color: white;
+}
+/* line 70, ../sass/_5-main.sass */
+section.about a .fa-pencil {
+  padding: 12px 15px;
+}
+/* line 72, ../sass/_5-main.sass */
+section.about a .fa-facebook {
+  padding: 12px 19px;
 }
